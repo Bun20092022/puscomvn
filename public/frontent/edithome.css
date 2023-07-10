@@ -1,0 +1,85 @@
+.prt_floting_customsett {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    padding: 3px 0 10px;
+    margin: -89px 0 0;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 25%);
+    z-index: 99999;
+}
+.tmtheme_fbar_icons {
+    display: block;
+    position: relative;
+    width: 55px;
+    height: 45px;
+    line-height: 52px;
+    text-align: center;
+}
+.tmtheme_fbar_icons i {
+    display: inline-block;
+    margin-top: 15px;
+    vertical-align: middle;
+    transition: .3s;
+    font-size: 21px;
+    color: #232323;
+}
+.tmtheme_fbar_icons > span {
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 25%);
+    opacity: 0;
+    min-width: 100px;
+    visibility: hidden;
+    font-size: 16px;
+    color: #232323;
+    transform: translateX(-5px);
+    transition: 0.5s ease;
+    padding: 0 20px;
+}
+.tmtheme_fbar_icons > span >span {
+    padding-left: 5px;
+}
+.tmtheme_fbar_icons > span:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -10px;
+    right: -15px;
+    width: 15px;
+    background-color: #fff;
+    height: 55px;
+}
+.tmtheme_fbar_icons:hover > span {
+   opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+.tm-desctext {
+    position: absolute;
+    top: 30px;
+    background-color: #fff;
+    max-width: 400px;
+    right: 30px;
+    padding: 30px 50px 23px 30px;
+    text-align: left;
+}
+.tm-desctext:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ffb120;
+}
+.tm-iocnbox-btn {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 15px;
+}
